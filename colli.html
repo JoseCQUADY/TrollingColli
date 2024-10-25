@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de Cumpleaños</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .tarjeta {
+            background-color: #fff;
+            border: 2px solid #ffcc00;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        input[type="email"] {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="tarjeta">
+        <h1>¡Feliz Cumpleaños!</h1>
+        <img src="oxkutzcab.jpeg" alt="Imagen de Cumpleaños">
+        <p>Feliz CumpleañosFollin.</p>
+        <form action="tu-script-aqui.php" method="post">
+            <input type="email" name="correo" placeholder="Ingresa tu correo para desnudarte" required>
+            <input type="submit" value="Enviar Felicitación">
+        </form>
+    </div>
+</body>
+</html>
